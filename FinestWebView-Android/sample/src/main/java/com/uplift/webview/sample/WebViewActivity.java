@@ -1,8 +1,10 @@
-package com.thefinestartist.finestwebview.sample;
+package com.uplift.webview.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
+
+import com.uplift.webview.sample.R;
 
 /**
  * Created by TheFinestArtist on 3/11/16.

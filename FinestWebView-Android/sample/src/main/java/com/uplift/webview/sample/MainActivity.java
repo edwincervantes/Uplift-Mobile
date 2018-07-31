@@ -1,9 +1,10 @@
-package com.thefinestartist.finestwebview.sample;
+package com.uplift.webview.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import com.thefinestartist.finestwebview.FinestWebView;
+import com.uplift.webview.sample.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thefinestartist.finestwebview.sample">
+    package="com.uplift.webview.sample">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,7 +14,7 @@
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <activity
-        android:name=".MainActivity"
+        android:name="com.uplift.webview.sample.MainActivity"
         android:label="@string/app_name">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
@@ -29,7 +29,7 @@
         android:screenOrientation="sensor"
         android:theme="@style/FinestWebViewTheme.Light"/>
 
-    <activity android:name=".WebViewActivity"/>
+    <activity android:name="com.uplift.webview.sample.WebViewActivity"/>
   </application>
 
 </manifest>
